@@ -1,0 +1,27 @@
+body{
+    font-family: monospace;
+}
+h1{
+    color: darkgreen;
+    text-align: center;
+    
+}
+p {
+    font-family: monospace; 
+    font-size: 14px
+}
+button{
+    margin: auto;
+    display: block;   
+}
+h2{
+    font-family: monospace;
+    text-align: center;
+    color: darkgreen;
+}
+ul{
+    font-family: monospace;
+    font-size: 14px;
+    text-align: center;
+    display: contents;
+}
