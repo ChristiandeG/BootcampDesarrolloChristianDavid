@@ -1,0 +1,19 @@
+body{
+    background-color: ghostwhite;
+    font-family: monospace;
+    margin-bottom: auto;
+}
+header{
+    color: grey;  
+}
+h1{
+    display: inline-table;
+    text-align: center;
+    font-display: auto;
+}
+
+.fotoarbol{
+    margin-left: centre;
+    width: 350px;
+
+}
