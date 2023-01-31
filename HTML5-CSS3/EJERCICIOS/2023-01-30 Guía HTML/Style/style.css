@@ -7,7 +7,6 @@ body{
 
 .pruebaflex{
     display: flex;
-    flex-direction: column
     align-content: space-between;
     mix-blend-mode:color-burn;
     filter: contrast(100%);
@@ -97,10 +96,10 @@ header{
 .imgboost:hover{
     transform: translateX(30px);
 }
-.imgsql{
+.imgmysql{
     font-weight: 600;
-    font-size: 20px;
-    padding-top:20px;
+    font-size: 10px;
+    padding-top:15px;
     padding-bottom:15px;
     padding-left:12px;
     padding-right:30px;
@@ -108,7 +107,8 @@ header{
     border-color: transparent;
     filter: contrast(2);
 }
-.imgsql:hover{
+
+.imgmysql:hover{
     transform: translateX(30px);
 }
 
