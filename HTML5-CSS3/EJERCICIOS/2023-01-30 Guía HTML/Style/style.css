@@ -1,25 +1,32 @@
+aside{
+    
+}
+.menu
 body{
     background-color: rgb(0,0,0,0.1);
     margin: 0%;
     padding: 0%;
-    
+    font-family: serif;
+    min-height: 100vh;
 }
 
 .pruebaflex{
     display: flex;
-    align-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+    align-items: center;
     mix-blend-mode:color-burn;
     filter: contrast(100%);
     
 
 }
-.prueblaflex div{
-    
+.pruebaflex div{
+    align-items: baseline;
 }
 header{
     background-image: url("../Imagenes/fondo.jfif");
-    font-size: 15px;
-    font-family: monospace;
+    font-size: 18px;
     color: lightgrey;
     padding-top: 45px;
     padding-bottom: 45px;
@@ -40,6 +47,7 @@ header{
 }
 .imghtml:hover{
     transform: translateX(20px);
+
 }
 .imgcss{
     font-weight: 600;
@@ -111,12 +119,28 @@ header{
 .imgmysql:hover{
     transform: translateX(30px);
 }
+.imgpython{
+    font-weight: 600;
+    font-size: 10px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:12px;
+    padding-right:30px;
+    background-color: transparent;
+    border-color: transparent;
+    filter: contrast(6);
+}
+.imgpython:hover{
+    transform: translateX(30px);
+}
 
 footer{
     background-image: url("../Imagenes/fondo.jfif");
-    color: lightgray;
-    padding-bottom: 30px;
-    padding-top: 35px;
-    padding-left: 15px;
+    color: lightgrey;
+    margin-bottom: 0%;
+    padding-top: 45%;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    padding-left: 45px; 
     
 }
