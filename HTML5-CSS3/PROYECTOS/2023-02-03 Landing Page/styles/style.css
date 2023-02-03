@@ -1,0 +1,58 @@
+body{
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+/*Contenedor del título*/
+.flex-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    width: 100%;
+    
+            border: 2px solid blue
+}
+.flex-imglogo{
+    width: 20%;
+    
+    
+    
+            border: 2px solid yellow
+ 
+}
+    
+.flex-texth1{
+    font-weight: 100px;
+    
+    
+            border: 2px solid red
+}
+/*Contedor lista de beneficios*/
+.flex-container2{
+    display:flex;
+    
+    
+            border: 2px solid blue
+}
+.flex-text1{
+            border: 2px solid red
+    
+}
+.flex-text2{
+            border: 2px solid red
+    
+}
+.flex-text3{
+            border: 2px solid red
+    
+}
+.flex-text4{
+            border: 2px solid red
+    
+}
+
+
+
+
+    
