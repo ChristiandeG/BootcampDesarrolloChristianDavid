@@ -3,53 +3,146 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;  
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
 }
-/*Contenedor del título*/
+/*Contenedor del titulo principal-header*/
 .flex-container1{
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     
             border: 2px solid blue
 }
 .flex-imglogo{
     width: 20%;
-    
-    
-    
-            border: 2px solid yellow
- 
+    height: 20%;
+    justify-self: start;
 }
     
 .flex-texth1{
-    font-weight: 100px;
+    width: 50%;
+    font-size: 13px;
+    justify-self: flex-end;
+
     
     
             border: 2px solid red
 }
-/*Contedor lista de beneficios*/
+
+/*Contedor lista de beneficios/Menu principal*/
 .flex-container2{
     display:flex;
+    width: 100%;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    background-position: center;
     
     
             border: 2px solid blue
 }
 .flex-text1{
+    margin-bottom: 70px;
+
             border: 2px solid red
     
 }
 .flex-text2{
+    margin-bottom: 70px;
             border: 2px solid red
     
 }
 .flex-text3{
+    margin-bottom: 70px;
             border: 2px solid red
     
 }
 .flex-text4{
             border: 2px solid red
     
+}
+.flex-button1{
+    width: 20%;
+  
+}
+
+
+/*Contenedor descripción de beneficios/Menu secundario*/
+.flex-container3{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+
+    
+    
+    border: 2px solid blue
+}
+.flex-1parte{
+    width: 50%;
+    align-self: flex-start;
+    border: 2px solid red
+    
+}
+.flex-2parte{
+    width: 50%;
+    align-self: flex-end;
+    
+    border: 2px solid red
+    
+}
+.flex-3parte{
+    width: 50%;
+    align-self: flex-start;
+    border: 2px solid red
+}
+.flex-4parte{
+    width: 50%;
+    align-self: flex-end;
+    
+    border: 2px solid red
+    
+}
+/*Contenedor clases redes sociales*/
+.flex-container4{
+    display: flex;
+    
+}
+.imgfacebook{
+    width: 60px;
+    height: 60px;
+}
+.imginsta{
+    width: 60px;
+    height: 60px;
+}
+.imgtwitter{
+    width: 60px;
+    height: 60px;
+}
+.imglinkeding{
+    width: 60px;
+    height: 60px;
+}
+/*Clases para HTML*/
+.mr{
+    border: 2px solid red
+}
+.mb{
+     
+    border: 2px solid blue
+}
+.my{
+     border: 2px solid yellow
+}
+.imgsize{
+        
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    height: 100%;
 }
 
 
