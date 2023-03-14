@@ -1,0 +1,30 @@
+body {
+    width: 100%;
+
+}
+.cajapadre{
+    display: flex;
+    flex-direction: row;
+}
+.tabla1 {
+    border-color: black;
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;    
+}
+.tabla2 {
+    border-color: black;
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+th, td {
+    border-color: 3px solid black;
+    align-items: center;
+    width: 40px;
+    height: 30px;
+}

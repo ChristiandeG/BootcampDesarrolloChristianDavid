@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Page Title</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+	</head>
+
+	<body>
+	    <button onclick="window.modal1.showModal();">Abrir ventana modal</button>
+
+<dialog id="modal1">
+   <h2>Este es el título de mi ventana modal</h2>
+   <p>Este es un texto de ejemplo dentro de una ventana modal</p>
+   <button onclick="window.modal1.close();">Cerrar</button>
+</dialog>
+
+<button onclick="window.modal2.showModal();">Abrir ventana modal</button>
+
+<dialog id="modal1">
+   <h2>Este es el título de mi ventana modal</h2>
+   <p>Este es un texto de ejemplo dentro de una ventana modal</p>
+   <button onclick="window.modal2.close();">Cerrar</button>
+</dialog>
+
+	</body>
+</html>

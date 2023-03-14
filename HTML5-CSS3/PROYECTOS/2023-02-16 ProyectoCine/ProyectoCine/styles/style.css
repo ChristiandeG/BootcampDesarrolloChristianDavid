@@ -1,0 +1,185 @@
+body{
+    width: 100%;
+}
+/*Menu parte superior de redes sociales*/
+.cajaheader {
+    display: flex;
+    flex-direction: row;
+    background-color: #6B1E61;
+
+    
+}
+.fecha{
+     background-color: #FFCC00;
+    width: 100%;
+    padding-left: 11%;
+    font-size: 20px;
+    
+}
+.logo1{
+    margin-left: 30px;
+}
+.logo2{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-top: 8px;
+
+}
+.logo3{
+       padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-top: 8px;
+    
+}
+.logo4{
+       padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-top: 8px;
+    
+}
+.logo5{
+       padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-top: 8px;
+    
+}
+.logo6{
+       padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-top: 8px;
+}
+.logo7{
+       padding-left: 10px;
+    padding-right: 6%;
+    padding-bottom: 1px;
+    padding-top: 8px;
+    
+}
+/*Menu parte superior de enlaces*/
+
+.cajanav{
+    display:flex;
+    background-color: #6B1E61;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.logoprincp{
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-left: 6%;
+    padding-right: 6%;
+   padding-bottom: 2%;
+    padding-top: 2%
+}
+.pasatiempos{
+    flex-grow: 1;
+    text-align: center; 
+    font-size: 20px;
+    border-left: #FFCC00 solid 3px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}   
+.cartelera {
+    flex-grow: 1; 
+    text-align: center; 
+    font-size: 20px;
+    border-left: #FFCC00 solid 3px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.concurso{
+    flex-grow: 1;
+    text-align: center; 
+     font-size: 20px;
+    border-left: #FFCC00 solid 3px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.reservas{
+    flex-grow: 1;
+    text-align: center;
+    font-size: 20px;
+    border-left: #FFCC00 solid 3px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+/*Menu del footer-amarillo*/
+.cajafooter{
+    display:flex;
+    background-color: #6B1E61;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo8{
+    padding-left: 6%;
+    padding-right: 1%;
+    padding-bottom: 1px;
+    padding-top: 8px;
+}
+.logo9{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1px;
+    padding-top: 8px;
+}
+.condiciones{
+    background-color: #FFCC00;
+    object-fit: contain;
+    font-size: 20px;
+    flex-grow: 1;
+    text-align: center;
+    border-left: #6B1E61 solid 3px;
+}
+/*Menu del footer-morado*/
+.cajasection1{
+    display:flex;
+    background-color: #6B1E61;
+    flex-flow: row-reverse nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.prensa, .festival, .contacto{
+    flex-grow: 1;
+    text-align: center; 
+    font-size: 20px;
+    border-right: #FFCC00 solid 3px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+/*Tamaño de los logos*/
+.imglogo{
+    width: 52px;
+    height: 52px;
+    background: #FFCC00;
+}
+.logoprincp{
+    width: 90px;
+    height: 90px;
+}
+.imgadap{
+    width: 100%;
+}
+/*Colores Fuente*/
+.colorfa{
+    color: #FFCC00;
+}
+.colorfm{
+    color: #6B1E61;
+}
+/*Colores de las cajas*/
+.cb{
+    border: blue 2px solid;
+}
+.cr{
+    border: red 2px solid;
+}
+.cy{
+    border: yellow 2px solid;
+}

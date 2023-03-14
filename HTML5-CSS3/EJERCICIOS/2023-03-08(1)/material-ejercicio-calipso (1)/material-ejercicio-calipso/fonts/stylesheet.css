@@ -1,0 +1,10 @@
+
+
+@font-face {
+    font-family: 'boogalooregular';
+    src: url('boogaloo-regular-webfont.woff2') format('woff2'),
+         url('boogaloo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

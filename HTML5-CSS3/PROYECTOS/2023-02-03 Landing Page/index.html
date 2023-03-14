@@ -8,9 +8,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="imagenes/Logofinal.png"/>
         <link href="styles/style.css" rel="stylesheet">   
 	</head>
-
-	<body> 
-    </div>
+	<body>
         <header>
             <div class="flex-container1">
                 <div class="flex-imglogo my">
@@ -28,53 +26,69 @@
             <div class="flex-container2">
                 <ul>
                     <div class="flex-text1 fontcolorblue">
-                        <li>NEUROMARKETING</li>
+                        <li><a href="#benef1" tittle="Ir a benef1">NEUROMARKETING</a></li>
                     </div>
                     <div class="flex-text2 fontcolorblue">
-                        <li>MANEJO DE REDES SOCIALES</li>
+                        <li><a href="#benef2" tittle="Ir a benef2">MANEJO DE REDES SOCIALES</a></li>
                     </div>
                     <div class="flex-text3 fontcolorblue">
-                        <li>BANCO DE IMAGENES PROPIO</li>
+                        <li><a href="#benef3" tittle="Ir a benef3">BANCO DE IMAGENES PROPIO</a></li>
                     </div>
                     <div class="flex-text4 fontcolorblue">
-                        <li>CONSULTORIA</li>
+                        <li><a href="#benef4" tittle="Ir a benef4">CONSULTORIA</a></li>
                     </div>
                 </ul>
                     <div class="flex-button1 my">
-                        <a href="../2023-02-03%2520Landing%2520Page/formulario.html"/a>
+                        <a class="botonmodal" onclick="window.modal1.showModal();">
                             <img class="imglana imgsize" src="imagenes/botonlana.png"/>
                         </a>
+                            <dialog id="modal1">
+                                <h3><strong>Formulario</strong></h3>
+                                <form>
+                                    <label for="fname">Nombre:</label><br>
+                                        <input type="text" id="fname" name="fname"><br>
+                                    <label for="Email">Email:</label><br>
+                                        <input type="text" id="Email" name="Email">
+                                        <input class="botonenviar" type="Submit" value="Submit">    
+                                </form>
+                        <button class="botoncierre">
+                            <a onclick="window.modal1.close();">Cerrar</a>
+                        </button>
+                            </dialog>
+     
                     </div>
             </div>
         </section>
-        
+
         <section id="menusecundario">
             <div class="flex-container3">
                 <div class="flex-1parte fontcolorblue">
                    <ul>
-                       <li>Guiamos tu negocio</li>
+                       <li id="benef1">Guiamos tu negocio</li>
                        <li>Creamos tu marca personal</li>
                    </ul>
                 </div>
                 <div class="flex-2parte fontcolororange">
                     <ul>
-                        <li>Estudiamos el proceso de compra y toma de decisiones de tus potenciales clientes</li>
+                        <li id="benef2">Estudiamos el proceso de compra y toma de decisiones de tus potenciales clientes</li>
                         <li>Marketing emocional</li>
                     </ul>
                 </div>
                 <div class="flex-3parte fontcolorblue">
                     <ul>
-                        <li>Creación y seguimiento de redes sociales</li>
+                        <li id="benef3">Creación y seguimiento de redes sociales</li>
                         <li>Social-Roadmap</li>
                     </ul>
                 </div>
                 <div class="flex-4parte fontcolororange">
                     <ul>
-                        <li>Banco de imágenes propio</li>
+                        <li id="benef4">Banco de imágenes propio</li>
                         <li>Gran stock audiovisual</li>
                     </ul>
                 </div>
-            <section id="menuredes">
+            </div>
+        </section>
+        <section id="menuredes">
                 <div class="flex-container4 mb" >
                     <div class="imgfacebook my">
                         <a href="https://www.google.com/search?q=facebook&rlz=1C1UEAD_esES1042ES1042&oq=fa&aqs=chrome.0.0i131i355i433i512j46i131i199i433i465i512j69i57j0i131i433i512j0i512j46i175i199i512j0i131i433i512j0i131i433j46i3j46i175i199i512.3095j0j7&sourceid=chrome&ie=UTF-8"><img src="imagenes/facebook%20logo.png" class="imgsize"></a>
@@ -90,12 +104,5 @@
                     </div>
                 </div>
             </section>
-                
-               
-                
-            </div>
-        </section>
-
-
 	</body>
 </html>

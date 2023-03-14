@@ -1,0 +1,87 @@
+.body{
+    width: 100%;
+    background-color: azure;
+    
+}
+h1 {
+    text-align: center;
+    color: brown;
+    width: 100%;
+    font-size: 50px;
+}
+p{    
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+        
+}
+
+.cajapadre{
+    display: flex;
+}
+.tabla1 {
+    width: 70%;
+    background-color: brown;
+    border color: black;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 1px;
+    margin-bottom: 10%;
+    padding: 1%;
+}
+.tabla2 {
+    width: 70%;
+    border color: white;
+    border-radius: 30px;
+    border-width: 1px;
+    margin-bottom: 10%;
+    padding: 1%;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+td, th {
+  text-align: center;
+  padding: 8px;
+  margin: 8px;
+    border-radius: 20px;
+}
+
+input{
+    width: 70%;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    border-color: white;
+    border: 0px;
+    outline: none;
+    background-color: brown;
+    color: azure;
+}
+botton{
+    background-color: aqua;
+    color: aqua;    
+
+}
+.blt{
+  border: 3px solid black;
+}
+.blt:hover {filter: opacity(.2);
+}
+botton {
+
+    background-color: brown;
+    color: azure;
+    font-size: 50px;
+    border-radius: 20px;
+}
+a { 
+    color: inherit; 
+} 
+/*Clases para Html*/
+.titulo{
+    color: brown;
+}
+.fontc{
+    color: azure;
+}

@@ -1,25 +1,27 @@
 body{
-    background-image: url(../imagenes/fondo.jpg);
-    background-position: left left 50%;
+    width: 100vw;
+    background-image: url(../imagenes/fondo.jpg), linear-gradient(to right, rgba(20, 75, 125, 1), rgba(255, 255, 255, 0));
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: #14223D;
-    
-    font-size: 28px;
-    margin: 10px;
-    padding: 10px;
+    background-color: #14213D;
+    overflow-x: hidden;
+    font-size: 28px;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-/*Contenedor del titulo principal-header*/
-.flex-container1{
+/*Contenedor del título principal-header*/
+.flex-container1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    
-            border: 2px solid blue
+    width: 90%;
+    border-style: dotted;
+    border-bottom-color: #fca311;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    margin: 0.5%;   
 }
 .flex-imglogo{
     max-width: 10%;
@@ -32,24 +34,15 @@ body{
     width: 26%;
     font-size: 30px;
     padding-left: 1.5%;
- 
-    
-    
-            border: 2px solid red
+    text-shadow: 1px 1px #fca311;
 }
 .flex-texth11{
     width: 15%;
     font-size: 30px;
-    align-self: left;
     justify-items: left;
-    padding-left: 1.5%;
-    margin-right: 30%;
-
-        
-            border: 2px solid red
+    margin-right: 20%;
+    text-shadow: 1px 1px #14213D;
 }
-
-
 /*Contedor lista de beneficios/Menu principal*/
 .flex-container2{
     display:flex;
@@ -57,114 +50,196 @@ body{
     margin-bottom: 30px;
     justify-content: space-around;
     background-position: center;
-    
-    
-            border: 2px solid blue
+    color: #14213D;
+    border-style: dotted;
+    border-bottom-color: #fca311;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    width: 90%;
+    text-shadow: 1px 1px #fca311;   
 }
 .flex-text1{
     margin-bottom: 90px;
-
-            border: 2px solid red
-    
+    padding: 5%;  
+    border-style: dotted;
+    border-bottom-color: #14213D;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+.flex-text1:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 .flex-text2{
     margin-bottom: 90px;
-            border: 2px solid red
-    
+    padding: 5%;  
+    border-style: dotted;
+    border-bottom-color:#14213D;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+.flex-text2:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 .flex-text3{
     margin-bottom: 90px;
-            border: 2px solid red
+    padding: 5%;
+    border-style: dotted;
+    border-bottom-color:#14213D;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+.flex-text3:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.flex-text4{  
+    padding: 5%;
+    border-style: dotted;
+    border-bottom-color:#14213D;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent; 
+    margin-bottom: 10%;
     
 }
-.flex-text4{
-    
-            border: 2px solid red
-    
+.flex-text4:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 .flex-button1{
     width: 21%;
     height: 27%;
+    perspective: 900px;
 }
-
-
+.imglana {
+    padding-top: 20%;
+    width: 100%;
+    height: 100%;
+    overflow: hidde;
+    border-radius: 50px;
+    z-index: 100%;
+    position: relative;
+    
+}
+/*Movimiento de la imagen*/
+.imglana:hover{
+    transform: rotate3d(1, 5, 1, 70deg);
+    transition-delay: 0.5s;
+    transition-property: background-color, font-size, transform, color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+    overflow-x: hidden;
+}
 /*Contenedor descripción de beneficios/Menu secundario*/
 .flex-container3{
     display:flex;
     flex-direction: column;
-    width: 100%;
-
-    
-    
-    border: 2px solid blue
+    width: 90%;
+    padding: 5%;  
+    border-style: dotted;
+    border-bottom-color: #fca311;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
 }
 .flex-1parte{
-    width: 50%;
+    width: 40%;
     align-self: flex-start;
-    border: 2px solid red
-    
+
+    border-style: dotted;
+    border-bottom-color: #14213D;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent; 
+    text-shadow: 1px 1px #14213D;
 }
 .flex-2parte{
-    width: 50%;
+    width: 40%;
     align-self: flex-end;
-    
-    border: 2px solid red
-    
+    margin-right: 3%;  
+    border-style: dotted;
+    border-bottom-color: #fca311;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;  
+    text-shadow: 1px 1px #fca311; 
 }
 .flex-3parte{
-    width: 50%;
+    width: 40%;
     align-self: flex-start;
-    border: 2px solid red
+    border-style: dotted;
+    border-bottom-color: #14213D;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent; 
+    text-shadow: 1px 1px #14213D; 
+    
+
 }
 .flex-4parte{
-    width: 50%;
+    width: 40%;
     align-self: flex-end;
-    
-    border: 2px solid red
-    
+    margin-right: 3%;
+    border-style: dotted;
+    border-bottom-color: #fca311;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;   
+    text-shadow: 1px 1px #fca311;
 }
 /*Contenedor clases redes sociales*/
 .flex-container4{
-    width: 15%;
+    width: 40%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     align-self: center;
     justify-content: space-between;
     justify-content: center;
-
-
-    
-    
+	left: 10; 
+	bottom: 0; 
+	position: fixed;   
 }
-
 .imgfacebook{
     width: 60px;
     height: 60px;
+}   
+.imgfacebook:hover{
+    transform: scale(1.4);
+    transition: 0.3s;
 }
 .imginsta{
     width: 60px;
     height: 60px;
 }
+.imginsta:hover{
+    transform: scale(1.4);
+    transition: 0.3s;
+}
 .imgtwitter{
     width: 60px;
     height: 60px;
+}
+.imgtwitter:hover{
+    transform: scale(1.4);
+    transition: 0.3s;
 }
 .imglinkeding{
     width: 60px;
     height: 60px;
 }
+.imglinkeding:hover{
+    transform: scale(1.4);
+    transition: 0.3s;
+}
 /*Clases para HTML*/
-.mr{
-    border: 2px solid red
-}
-.mb{
-     
-    border: 2px solid blue
-}
-.my{
-     border: 2px solid yellow
-}
+
 .imgsize{
         
     object-fit: contain;
@@ -176,8 +251,48 @@ body{
     color:#fca311;
 }
 .fontcolorblue{
-    color:#14213D;
+    color:#14212E;
 }
+/*Cualidades de la ventana modal*/
+dialog::backdrop {
+  background: #14213D;
+  opacity: 60%;
+}
+.botonmodal{
+    opacity: 100%;
+    text-shadow: 1px 1px #14213D; 
+}
+#modal1{
+    background: #fca311;
+    color:#14213D;
+    opacity: 80%;
+    width: 20%;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px #14213D; 
+}
+.botoncierre{
+    background: #14213D;
+    color: #fca311;
+    width: 30%;
+
+}
+.botoncierre:hover{
+    transform: scale(1.4);
+    transition: 0.3s;
+}
+.botonenviar{
+    background: #14213D;
+    color: #fca311;
+    width: 30%;
+
+}
+.botonenviar:hover{
+    transform: scale(1.4);
+    transition: 0.3s;
+}
+
 
 
 
